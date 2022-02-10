@@ -15,7 +15,7 @@ export const SearchContainer = styled.View`
 `
 
 export const Input = styled.TextInput`
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(214, 214, 214, 1);
   width: 85%;
   height: 50px;
   border-radius: 50px;
@@ -29,4 +29,27 @@ export const SearchButton = styled.TouchableOpacity`
   height: 50px;
   align-items: center;
   justify-content: center;
+`
+
+export const Title = styled.Text`
+  padding-top: 20px;
+  padding-bottom: 8px;
+  padding-left: 14px;
+  padding-right: 14px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+`
+
+export const BannerButton = styled.TouchableOpacity``
+
+export const Banner = styled.Image`
+  height: 150px;
+  border-radius: 6px;
+  margin: 0 14px;
+`
+
+export const SliderMovie = styled.FlatList`
+  height: 250px;
+  padding: 0 14px;
 `
